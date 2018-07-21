@@ -23,6 +23,9 @@
 		6B85986F21030EAF00261C21 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6B8598732103156100261C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		6B8598752103156600261C21 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = es; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		6B8598762103168600261C21 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		6B8598772103168700261C21 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6B8598782103168700261C21 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = pl; path = pl.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* iLikeIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLikeIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +122,7 @@
 				en,
 				Base,
 				es,
+				pl,
 			);
 			mainGroup = D2A5F1F71F4A9143005CD714;
 			productRefGroup = D2A5F2011F4A9144005CD714 /* Products */;
@@ -163,6 +167,7 @@
 			children = (
 				6B85986D21030E9800261C21 /* en */,
 				6B85986F21030EAF00261C21 /* es */,
+				6B8598772103168700261C21 /* pl */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 			children = (
 				6B8598732103156100261C21 /* en */,
 				6B8598752103156600261C21 /* es */,
+				6B8598782103168700261C21 /* pl */,
 			);
 			name = Localizable.stringsdict;
 			sourceTree = "<group>";
@@ -181,6 +187,7 @@
 			children = (
 				D2A5F2081F4A9144005CD714 /* Base */,
 				6B85986B21030DDD00261C21 /* es */,
+				6B8598762103168600261C21 /* pl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
