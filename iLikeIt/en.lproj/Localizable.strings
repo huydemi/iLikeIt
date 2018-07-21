@@ -6,7 +6,7 @@
   Copyright © 2018 Razeware. All rights reserved.
 */
 
-"You have sold 1000 apps in %d months" = "You have sold 1000 apps in %d months";
+"You have sold 1000 apps in %d months" = "You have sold %@ apps in %d months";
 "You like?" = "You like?";
 "imageName" = "iLikeIt";
 
