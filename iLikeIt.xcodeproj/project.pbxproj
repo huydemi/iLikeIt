@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		18D83EDC1FC9D23B001DB734 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D83EDB1FC9D23B001DB734 /* MainViewController.swift */; };
 		6B85986C21030E9800261C21 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B85986E21030E9800261C21 /* Localizable.strings */; };
+		6B8598722103156100261C21 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 6B8598742103156100261C21 /* Localizable.stringsdict */; };
 		D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F2071F4A9144005CD714 /* Main.storyboard */; };
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
@@ -20,6 +21,8 @@
 		6B85986B21030DDD00261C21 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		6B85986D21030E9800261C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6B85986F21030EAF00261C21 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6B8598732103156100261C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		6B8598752103156600261C21 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = es; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* iLikeIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLikeIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 				D2A5F20A1F4A9144005CD714 /* Assets.xcassets */,
 				D2A5F20F1F4A9144005CD714 /* Info.plist */,
 				6B85986E21030E9800261C21 /* Localizable.strings */,
+				6B8598742103156100261C21 /* Localizable.stringsdict */,
 			);
 			path = iLikeIt;
 			sourceTree = "<group>";
@@ -134,6 +138,7 @@
 				D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */,
 				6B85986C21030E9800261C21 /* Localizable.strings in Resources */,
 				D2D9196A1F65FEC20011F7B0 /* LaunchScreen.xib in Resources */,
+				6B8598722103156100261C21 /* Localizable.stringsdict in Resources */,
 				D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +165,15 @@
 				6B85986F21030EAF00261C21 /* es */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6B8598742103156100261C21 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8598732103156100261C21 /* en */,
+				6B8598752103156600261C21 /* es */,
+			);
+			name = Localizable.stringsdict;
 			sourceTree = "<group>";
 		};
 		D2A5F2071F4A9144005CD714 /* Main.storyboard */ = {
